@@ -117,7 +117,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", ".play", "!play", "play", "@", "#", "$"])
+    commandpro(["/play", ".play", "!play", "play", "//", "@", "#", "$"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -206,7 +206,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            url=f"{UPDATES_CHANNEL}")
                    
                 ]
             ]
@@ -259,7 +259,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            url=f"{UPDATES_CHANNEL}")
                    
                 ]
             ]
@@ -289,7 +289,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            url=f"{UPDATES_CHANNEL}")
                    
                 ]
             ]
@@ -357,7 +357,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            url=f"{UPDATES_CHANNEL}")
                    
                 ]
             ]
